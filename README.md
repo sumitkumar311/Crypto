@@ -31,5 +31,5 @@ Watch the demo of the app on post: [Demo Video Link](https://www.linkedin.com/po
 
 
 ## Site Live here
-Watch the Live of the app: [Live]([https://www.linkedin.com/posts/sumitshrivaas_react-reduxtoolkit-cryptotracker-activity-7321569814500548612-ozzn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9VCbkBXT9rJi39N8NdlpgxFadTt_CDbAc](https://chipper-cendol-d61b2b.netlify.app/))
+Watch the Live of the app: [Live](https://www.linkedin.com/posts/sumitshrivaas_react-reduxtoolkit-cryptotracker-activity-7321569814500548612-ozzn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9VCbkBXT9rJi39N8NdlpgxFadTt_CDbAc](https://chipper-cendol-d61b2b.netlify.app/))
 
