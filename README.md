@@ -1,12 +1,35 @@
-# React + Vite
+Project Title
+Real-Time Crypto Price Tracker
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Description
+This project is a React + Redux Toolkit application that tracks real-time cryptocurrency prices. The app  updates by periodically changing cryptocurrency data every 1-2 seconds. It utilizes Redux for state management to store and display the data, including price changes, market cap, and 24h volume.
 
-Currently, two official plugins are available:
+Features
+Simulated Real-Time Price Updates: Prices update every 1–2 seconds to simulate real-time data.
+Color-coded Price Changes: Percentage changes in price are color-coded (green for positive, red for negative).
+Responsive Design: The app is mobile-friendly, displaying a responsive table.
+Redux for State Management: All cryptocurrency data is managed with Redux Toolkit to optimize performance.
+Data Display: Includes fields such as price, percentage change (1h, 24h, 7d), market cap, and 24h volume.
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+Tech Stack
+Frontend: React.js, Redux Toolkit, Tailwind CSS
+State Management: Redux Toolkit
+Styling: Tailwind CSS
+Simulated WebSocket: setInterval to simulate real-time data updates every 1–2 seconds
 
-## Expanding the ESLint configuration
+Project Architecture
+Components:
+CryptoTable: Displays the table of cryptocurrencies with real-time data.
+WebSocketCrypto: Simulates WebSocket behavior for updating data every 1-2 seconds using setInterval.
+Redux Slices:
+webcryptoSlice: Handles cryptocurrency asset data (price, market cap, volume, etc.).
+Custom Hooks:
+useWebSocket: Custom hook to simulate WebSocket updates (via setInterval).
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+## Demo Video
+Watch the demo of the app on post: [Demo Video Link](https://www.linkedin.com/posts/sumitshrivaas_react-reduxtoolkit-cryptotracker-activity-7321569814500548612-ozzn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9VCbkBXT9rJi39N8NdlpgxFadTt_CDbAc)
+
+
+## Site Live here
+Watch the Live of the app: [Live]([https://www.linkedin.com/posts/sumitshrivaas_react-reduxtoolkit-cryptotracker-activity-7321569814500548612-ozzn?utm_source=share&utm_medium=member_desktop&rcm=ACoAAD9VCbkBXT9rJi39N8NdlpgxFadTt_CDbAc](https://chipper-cendol-d61b2b.netlify.app/))
+
